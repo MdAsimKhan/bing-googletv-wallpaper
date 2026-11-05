@@ -29,7 +29,7 @@ Features a CleanYourTV **module card** ("Bing", caption "Daily Wallpaper" with a
 
 ## Quick Install (Prebuilt APK)
 
-1. Download `app-release.apk` from [Releases](https://github.com/MdAsimKhan/bing-tv-wallpaper/releases/latest).
+1. Download `app-release.apk` from [Releases](https://github.com/MdAsimKhan/bing-googletv-wallpaper/releases/latest).
 2. Install over ADB:
    ```bash
    adb install -r app-release.apk
@@ -45,8 +45,8 @@ Requirements: JDK 17 and Android SDK 34.
 
 ```bash
 # Clone
-git clone https://github.com/MdAsimKhan/bing-tv-wallpaper.git
-cd bing-tv-wallpaper
+git clone https://github.com/MdAsimKhan/bing-googletv-wallpaper.git
+cd bing-googletv-wallpaper
 
 # Windows
 .\build-and-install.ps1 -TvHost <tv-ip>
